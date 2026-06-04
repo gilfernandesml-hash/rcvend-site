@@ -166,6 +166,7 @@ const SearchPage = () => {
                   <label className="block text-sm font-medium text-gray-700 mb-2">Tipo de Imóvel</label>
                   <select value={propertyType} onChange={(e) => setPropertyType(e.target.value)} className="w-full px-4 py-2 border rounded-lg">
                     <option value="">Todos</option>
+                    <option value="studio">Studio</option>
                     <option value="apartment">Apartamento</option>
                     <option value="house">Casa</option>
                     <option value="commercial">Comercial</option>

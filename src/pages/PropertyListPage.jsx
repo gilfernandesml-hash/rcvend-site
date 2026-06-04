@@ -319,6 +319,7 @@ const PropertyListPage = () => {
                 <label className="block text-sm font-medium text-gray-700 mb-2">Tipo</label>
                 <select className="input-field w-full" value={filters.type} onChange={e => setFilters(prev => ({ ...prev, type: e.target.value }))}>
                   <option value="all">Todos</option>
+                  <option value="studio">Studio</option>
                   <option value="house">Casa</option>
                   <option value="apartment">Apartamento</option>
                   <option value="commercial">Comercial</option>

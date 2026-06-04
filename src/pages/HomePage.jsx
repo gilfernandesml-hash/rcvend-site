@@ -190,6 +190,7 @@ const HomePage = () => {
 					<div className="grid grid-cols-1 md:grid-cols-6 gap-3 items-center">
 						<select value={propertyType} onChange={e => setPropertyType(e.target.value)} className="w-full h-12 bg-white border border-input rounded-xl px-4 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-ring/30 focus:border-primary transition-all">
 							<option value="">Tipo de imóvel</option>
+							<option value="studio">Studio</option>
 							<option value="apartment">Apartamento</option>
 							<option value="house">Casa</option>
 							<option value="commercial">Comercial</option>

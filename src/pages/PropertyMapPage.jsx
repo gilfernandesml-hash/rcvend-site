@@ -121,6 +121,7 @@ const PropertyMapPage = () => {
                     </select>
                     <select className="px-3 py-1.5 bg-gray-50 border border-gray-200 rounded-lg text-sm text-gray-700 w-1/2" value={filters.type} onChange={(e) => setFilters(prev => ({...prev, type: e.target.value}))}>
                         <option value="all">Tipos (Todos)</option>
+                        <option value="studio">Studios</option>
                         <option value="apartment">Apartamentos</option>
                         <option value="house">Casas</option>
                         <option value="commercial">Comerciais</option>
