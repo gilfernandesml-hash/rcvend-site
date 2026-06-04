@@ -89,7 +89,7 @@ const HomePage = () => {
     telephone: '+55 11 97025-9728',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'R. Antônio Bandeira, Alto da Boa Vista, Santo Amaro',
+      streetAddress: 'Av Dr Chucry Zaidan, 111',
       addressLocality: 'São Paulo',
       addressRegion: 'SP',
       addressCountry: 'BR'

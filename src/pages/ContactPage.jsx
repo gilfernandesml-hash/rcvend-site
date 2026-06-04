@@ -250,7 +250,7 @@ const ContactPage = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-[#1a3a52] mb-1">Endereço</h3>
-                      <p className="text-gray-600">R. Antônio Bandeira, Alto da Boa Vista, Santo Amaro, São Paulo - SP</p>
+                      <p className="text-gray-600">Av Dr Chucry Zaidan, 111, São Paulo - SP</p>
                     </div>
                   </div>
 
