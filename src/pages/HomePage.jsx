@@ -242,7 +242,7 @@ const HomePage = () => {
 					</div>
 				) : (
 					<Suspense fallback={<div className="flex justify-center p-12"><Loader2 className="animate-spin text-muted-foreground" /></div>}>
-						<div className="grid grid-cols-1 md:grid-cols-2 gap-8" onClickCapture={(e) => {
+						<div className="grid grid-cols-1 md:grid-cols-3 gap-8" onClickCapture={(e) => {
 							if (e.target.closest('button') && e.target.closest('button').textContent.toLowerCase().includes('whatsapp')) {
 								trackWhatsAppClick({ page_path: window.location.pathname, deal_type: 'venda', source: 'featured_card' });
 							}
